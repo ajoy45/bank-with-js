@@ -3,7 +3,7 @@ document.getElementById('submit-btn').addEventListener('click',function(){
       const catchEmail = inputEmail.value;
       const inputPassword = document.getElementById('password-input');
       const catchPassword = inputPassword.value;
-      if(catchEmail=='ajoypust@gmail.com'&&catchPassword=='ajoy140245biswas'){
+      if(catchEmail=='salam@gmail.com'&&catchPassword=='ajoy140245'){
             window.location.href='banking.html';
       }    
 });
