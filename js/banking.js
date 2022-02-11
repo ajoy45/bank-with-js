@@ -37,7 +37,9 @@ document.getElementById('withdraw-btn').addEventListener('click',function(){
       
     // show withdraw
     const showWithdraw = document.getElementById('show-withdraw');
-    showWithdraw.innerText = withdrawAmount;
+    const previousShowWithdrawText = showWithdraw.innerText;
+    const previousShowAmount = parseFloat(previousShowWithdrawText);
+    showWithdraw.innerText = withdrawAmount+previousShowAmount;
     // clear
     withdrawBalance.value = '';
 
